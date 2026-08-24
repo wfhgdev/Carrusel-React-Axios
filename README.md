@@ -1,4 +1,4 @@
-## **Carrusel Diamico de Productos REACT, Vite, Router DOM, AXIOS, Clean Code, Atomic Design**
+## **Carrusel Dinámico de Productos utilizando REACT, Vite, Router DOM, AXIOS, Clean Code, Atomic Design**
 
 Un banner dinámico de productos es un **espacio publicitario digital que cambia su contenido de forma automática según reglas predefinidas o el comportamiento del usuario**. Si se configura para mostrar los productos más caros, el sistema extrae de tu catálogo los artículos con mayor precio y los actualiza en tiempo real.
 
