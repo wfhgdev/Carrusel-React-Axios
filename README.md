@@ -20,7 +20,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ```bash
 git clone https://github.com/wfhgdev/Carrusel-React-Axios.git
-cd Grupo3-La-Inmobiliaria
+cd carrusel
 ```
 
 ### 2. Instalar dependencias
