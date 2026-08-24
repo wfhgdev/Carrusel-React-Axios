@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-const API_URL = 'https://api.escuelajs.co/api/v1/products';
-const MAX_BANNER_ITEMS = 3;
+const apiUrl = 'https://api.escuelajs.co/api/v1/products';
+const maxBannerItems = 3;
 
 const DynamicBanner = () => {
   const [premiumProducts, setPremiumProducts] = useState([]);
@@ -22,8 +22,8 @@ const DynamicBanner = () => {
   useEffect(() => {
     const fetchBannerProducts = async () => {
       try {
-        const response = await axios.get(API_URL);
-        const expensiveItems = getTopExpensiveProducts(response.data, MAX_BANNER_ITEMS);
+        const response = await axios.get(apiUrl);
+        const expensiveItems = getTopExpensiveProducts(response.data, maxBannerItems);
 
         setPremiumProducts(expensiveItems);
       } catch (error) {
