@@ -39,16 +39,16 @@ const DynamicBanner = () => {
   }, []);
 
   if (isLoading) {
-    return <div className="loadingState">Loading exclusive offers...</div>;
+    return <div className="loadingState">Cargando los productos mas Premium...</div>;
   }
 
   if (hasError) {
-    return <div className="errorState">Unable to load premium products at this time.</div>;
+    return <div className="errorState">No fue posible cargar productos Premium en este momento.</div>;
   }
 
   return (
     <section className="dynamicBannerContainer">
-      <h2 className="bannerTitle">Discover Our Premium Line</h2>
+      <h2 className="bannerTitle">Descubre nuestros productos mas Premium</h2>
       <div className="bannerGrid">
         {premiumProducts.map((product) => (
           <article key={product.id} className="bannerCard">
@@ -61,7 +61,7 @@ const DynamicBanner = () => {
               <h3 className="productTitle">{product.title}</h3>
               <p className="productPrice">${product.price}</p>
               <Link to={`/product/${product.id}`} className="bannerButton">
-                View Product
+                Ver Producto
               </Link>
             </div>
           </article>
