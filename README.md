@@ -19,7 +19,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/wfhgdev/Grupo3-La-Inmobiliaria.git
+git clone https://github.com/wfhgdev/Carrusel-React-Axios.git
 cd Grupo3-La-Inmobiliaria
 ```
 
