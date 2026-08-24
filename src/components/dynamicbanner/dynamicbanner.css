@@ -1,5 +1,5 @@
 .dynamicBannerContainer {
-    background: linear-gradient(135deg, #1e1e24, #2a2a35);
+    background: linear-gradient(135deg, #5d5d5f, #3f3f49);
     color: #ffffff;
     padding: 40px;
     border-radius: 12px;
@@ -23,7 +23,7 @@
     border-radius: 8px;
     overflow: hidden;
     width: 250px;
-    box-shadow: 04px15px rgba(0, 0, 0, 0.3);
+    box-shadow: 04px15px rgba(73, 72, 72, 0.3);
 }
 
 .bannerImage {
