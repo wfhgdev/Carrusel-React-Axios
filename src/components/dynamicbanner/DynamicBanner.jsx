@@ -48,7 +48,7 @@ const DynamicBanner = () => {
 
   return (
     <section className="dynamicBannerContainer">
-      <h2 className="bannerTitle">Descubre nuestros productos mas Premium</h2>
+      <h2 className="bannerTitle">Descubre nuestros productos mas "Premium"</h2>
       <div className="bannerGrid">
         {premiumProducts.map((product) => (
           <article key={product.id} className="bannerCard">
