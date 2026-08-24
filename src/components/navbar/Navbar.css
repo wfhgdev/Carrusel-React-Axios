@@ -1,0 +1,19 @@
+.header-nav {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.nav-container a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 10px 22px;
+}
+
+.nav-container a:hover {
+    color: #a81a1a;
+}
