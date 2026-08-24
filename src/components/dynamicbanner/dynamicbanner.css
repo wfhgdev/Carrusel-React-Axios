@@ -1,0 +1,65 @@
+.dynamicBannerContainer {
+    background: linear-gradient(135deg, #1e1e24, #2a2a35);
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bannerTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bannerGrid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bannerCard {
+    background: #3a3a4a;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 04px15px rgba(0, 0, 0, 0.3);
+}
+
+.bannerImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bannerInfo {
+    padding: 15px;
+}
+
+.productTitle {
+    font-size: 1.1rem;
+    margin: 10px0;
+}
+
+.productPrice {
+    color: #ffbe0b;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.bannerButton {
+    display: inline-block;
+    background: #ff595e;
+    color: white;
+    padding: 8px16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.loadingState,
+.errorState {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
