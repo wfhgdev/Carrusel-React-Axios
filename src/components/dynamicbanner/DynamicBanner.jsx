@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './Dynamicbanner.css';
 
 const apiUrl = 'https://api.escuelajs.co/api/v1/products';
 const maxBannerItems = 3;
