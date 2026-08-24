@@ -2,6 +2,10 @@
 
 Un banner dinámico de productos es un **espacio publicitario digital que cambia su contenido de forma automática según reglas predefinidas o el comportamiento del usuario**. Si se configura para mostrar los productos más caros, el sistema extrae de tu catálogo los artículos con mayor precio y los actualiza en tiempo real.
 
+## Despliegue en Vercel
+
+- [Link en Vercel](https://carrusel-react-axios-blue.vercel.app/)
+
 ## **Cómo Funciona**
 
 - **Conexión al catálogo:** El banner se conecta a [API Platzi Escuela JS](https://api.escuelajs.co/api/v1/products) mediante AXIOS.
