@@ -28,7 +28,7 @@ const DynamicBanner = () => {
 
         setPremiumProducts(expensiveItems);
       } catch (error) {
-        console.error('Failed to load high value inventory:', error);
+        console.error('Fallo al cargar productos premium:', error);
         setHasError(true);
       } finally {
         setIsLoading(false);
