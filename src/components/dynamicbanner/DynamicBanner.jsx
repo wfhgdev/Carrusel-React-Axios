@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-// Constantes de configuración aisladas
-const API_URL = 'https://platzi.com';
+const API_URL = 'https://api.escuelajs.co/api/v1/products';
 const MAX_BANNER_ITEMS = 3;
 
 const DynamicBanner = () => {
@@ -11,7 +10,6 @@ const DynamicBanner = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
-  // Funciones utilitarias de limpieza y ordenamiento (Clean Code)
   const sortProductsByPriceDescending = (products) => {
     return [...products].sort((firstProduct, secondProduct) => secondProduct.price - firstProduct.price);
   };
