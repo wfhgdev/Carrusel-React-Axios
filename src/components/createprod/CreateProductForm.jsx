@@ -61,7 +61,7 @@ const CreateProductForm = () => {
             try {
                 new URL(formData.imageUrl);
             } catch (_) {
-                newErrors.imageUrl = 'Por favor ingrese una URL valida (e.g., https://...)';
+                newErrors.imageUrl = 'Por favor ingrese una URL valida (Ejemplo:, https://...)';
             }
         }
 
@@ -131,7 +131,7 @@ const CreateProductForm = () => {
                         value={formData.title}
                         onChange={handleChange}
                         className={`form-input ${errors.title ? 'input-error' : ''}`}
-                        placeholder="e.g. Audifonos Inalambricos"
+                        placeholder="Ejemplo: Audifonos Inalambricos"
                     />
                     {errors.title && <span className="error-message">{errors.title}</span>}
                 </div>
@@ -151,7 +151,7 @@ const CreateProductForm = () => {
                             value={formData.price}
                             onChange={handleChange}
                             className={`form-input ${errors.price ? 'input-error' : ''}`}
-                            placeholder="e.g. 99"
+                            placeholder="Ejemplo: 99"
                         />
                         {errors.price && <span className="error-message">{errors.price}</span>}
                     </div>
